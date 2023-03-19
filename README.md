@@ -1,5 +1,6 @@
 # javascript-question-bank
 
+[Creating counter using closure](Question_Bank/Closure_counter.md)
 ## General Question
 
 ### 1 : Is JavaScript a case-sensitive language : <b>Yes</b>
