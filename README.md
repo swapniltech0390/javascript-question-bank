@@ -32,8 +32,14 @@
 
 [16. How to embed javascript into HTML ](Question_Bank/embed_javasript_into_html.md)
 
-[17. What is NaN in JavaScript ](Question_Bank/isNAN.md)
+[17. What is **NaN** in JavaScript ](Question_Bank/isNAN.md)
 
-[18. What are IIFE or self-invoking functions ](Question_Bank/IIFE.md)
+[18. What are **IIFE** or self-invoking functions ](Question_Bank/IIFE.md)
 
 [19. How to Create, Read & Delete a Cookie](Question_Bank/CRUD_Cookie.md)
+
+[20. Destructuring of Array and Object](Question_Bank/destructuring.md)
+
+[21. Use of **Seal** function in Object](Question_Bank/seal_object.md)
+
+[22. isEven or isOdd](Question_Bank/even_odd.md)
