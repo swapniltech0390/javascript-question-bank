@@ -1,3 +1,5 @@
+# Flatten the multi level array
+```javascript
 var arrayList = [1, 2, [3, 4, [5, 6, [7, 8, 9]]]];
 
 let flatten = (array) => {
@@ -13,3 +15,4 @@ let flatten = (array) => {
 };
 
 console.log(flatten(arrayList));
+```

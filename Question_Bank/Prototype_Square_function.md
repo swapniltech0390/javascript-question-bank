@@ -1,3 +1,6 @@
+# Create a square function in prototype object of Array
+
+```javascript
 let squareArray = [1, 2, 3, 4];
 
 Array.prototype.square = function () {
@@ -5,3 +8,4 @@ Array.prototype.square = function () {
 };
 
 console.log(squareArray.square());
+```
