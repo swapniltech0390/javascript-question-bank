@@ -1,5 +1,5 @@
 # Create a function to return sum of Array values
-```javascript 
+```js 
 const numArray = [1,2,3,4,5,6];
 const sum = numArray.reduce(
   (accumalator, currentVal) => (accumalator += currentVal),

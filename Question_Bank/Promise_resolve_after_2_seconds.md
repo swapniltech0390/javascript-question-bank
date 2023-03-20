@@ -1,5 +1,5 @@
 # Create a promise that will resolve after 2 seconds
-```javascript
+```js
 const promise = new Promise((resolve, reject) => {
   resolve(
     setTimeout(() => {

@@ -1,12 +1,12 @@
 # How to add comments in Javascript 
 
 ## For a single line of comment
-```javascript
+```js
 // Add a single line of comment
 ```
 
 ## For multi-line comments
-```javascript
+```js
 /*
 Adding
 multiple lines

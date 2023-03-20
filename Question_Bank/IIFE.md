@@ -2,7 +2,7 @@
 
 ### The function that run immediately,without being called are known as IIFE.
 
-```javascript
+```js
 (function sayHello () {
   console.log("Hello World!")
 }) ();

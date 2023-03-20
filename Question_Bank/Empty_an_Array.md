@@ -5,23 +5,23 @@
 
 
 ### 1 : setting array to be empty
-```javascript
+```js
     arrayList = [];
     console.log(arrayList); // Output : []
 ```
 
 ### 2 : setting array length equal to Zero
-```javascript
+```js
     arrayList.length = 0;
     console.log(arrayList); //  Output : []
 ```
 ### 3 : using splice funtion
-```javascript
+```js
     arrayList.splice(0, arrayList.length);
     console.log(arrayList); // Output : []
 ```
 ### 4 : using while loop
-```javascript
+```js
     while (arrayList.length) {
      arrayList.pop();
     }

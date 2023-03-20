@@ -1,7 +1,7 @@
 # Identify if given number is a **EVEN** or **ODD** number
 
 ### **isEven**
-```javascript
+```js
 let isEven = (x) => x % 2 === 0;
 console.log(isEven(2)); // true
 
@@ -9,7 +9,7 @@ console.log(isEven(3)); // false
 ```
 
 ### **isOdd**
-```javascript
+```js
 let isOdd = (x) => x % 2 !== 0;
 console.log(isOdd(2)); // false
 

@@ -3,35 +3,35 @@
 ##  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let num = "123.32"
 
 ### 1 : using Number()
-```javascript 
+```js 
     console.log(Number(num)) // Output : 123
 ```
     
 ### 2 : using parInt()
-```javascript 
+```js 
     console.log(parseInt(num)) //  Output : 123
 ```
 ### 3 : using parseFloat()
-```javascript 
+```js 
     console.log(parseFloat(num)) //  Output : 123.32
 ```
 ### 4 : using (+) operator
-```javascript 
+```js 
     console.log(+num) //  Output : 123.32
 ```
 ### 5 : using Multiply by 1
-```javascript 
+```js 
     console.log(num * 1) // Output : 123.32
 ```
 ### 6 : using Divide by 1
-```javascript 
+```js 
     console.log(num / 1) //  Output : 123.32
 ```
 ### 7 : using Subtracting the number 0
-```javascript 
+```js 
     console.log(num - 0) //  Output : 123.32
 ```
 ### 8 : using bitwise(~) not operator
-```javascript 
+```js 
     console.log(~~num) //  Output : 123
 ```

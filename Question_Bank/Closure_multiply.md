@@ -1,5 +1,5 @@
 # Create a multiply function using closure
-```javascript
+```js
 /* LONGHAND */
 function multiply(x) {
   return function (y) {

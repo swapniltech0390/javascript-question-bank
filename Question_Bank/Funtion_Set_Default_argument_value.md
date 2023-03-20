@@ -1,22 +1,22 @@
 # How to set default arguments value to function
-```javascript
+```js
     function volume(a, b = 3, c = 4) {
         return a * b * c;
     }
 ```
 
 ### 1 : Function with 3 argument value
-```javascript
+```js
     let vol = volume(2,4,5);
     console.log(vol); //  Output : 40
 ```
 ### 2 : Function with 2 argument value
-```javascript
+```js
     let vol = volume(2,4);
     console.log(vol); //  Output : 32
 ```
 ### 3 : Function with 1 argument value
-```javascript
+```js
     let vol = volume(2);
     console.log(vol); //  Output : 24
 ```
