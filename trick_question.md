@@ -105,3 +105,15 @@ function countVowels(str){
 console.log(countVowels('This is the testing example')); // Output : 8
 ```
 </details>
+
+<details open>
+  <summary>10 : Find if given number is Integer or not</summary>
+
+```js
+let isInteger = (x) => x % 1 === 0;
+
+console.log(isInteger(2)); // Output : true
+
+console.log(isInteger(2.1)); // Output : false
+```
+</details>

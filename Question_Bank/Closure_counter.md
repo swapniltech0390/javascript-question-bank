@@ -15,9 +15,9 @@ function counter() {
 var c = counter();
 c.increment();
 c.increment();
-console.log("After increment", c.retrieve());
+console.log("After increment", c.retrieve()); // Output : 2
 
 c.decrement();
-console.log("After decrement ", c.retrieve());
+console.log("After decrement ", c.retrieve()); // Output : 1
 
 ```
