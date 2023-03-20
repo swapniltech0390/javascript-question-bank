@@ -43,3 +43,5 @@
 [21. Use of **Seal** function in Object](Question_Bank/seal_object.md)
 
 [22. isEven or isOdd](Question_Bank/even_odd.md)
+
+[23. for...in and for...of](Question_Bank/for_in_&_for_of.md)
