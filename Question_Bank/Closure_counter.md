@@ -1,6 +1,6 @@
 # Create a counter using closure
 
-```javascript
+```js
 function counter() {
   var _counter = 0;
   // return an object with functions that allow you

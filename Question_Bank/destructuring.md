@@ -5,7 +5,7 @@
 <br>
 
 **Object destructuring**
-```javascript
+```js
 const obj = {a:"first", b: "second"};
 
 const {a, b} = obj;
@@ -16,7 +16,7 @@ console.log(a,b); // first second
 <br>
 
 **Array destructuring**
-```javascript
+```js
 const data = ["Swapnil", "Rahul", "Raj"];
 
 const [y,z] = data;

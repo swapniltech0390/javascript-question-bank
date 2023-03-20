@@ -5,7 +5,7 @@ Do mod of number by 1 ... \
 If it is integer remainder will be Zero, So the output will be true \
 Else remaining value so the output will be false
 
-```javascript
+```js
 // Method 1
 function isInt(num) {
   return num % 1 === 0;

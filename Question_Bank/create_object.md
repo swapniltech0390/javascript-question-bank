@@ -1,5 +1,5 @@
 # How to create an object
-```javascript
+```js
 var emp = {
     name: "Daniel",
     age: 23

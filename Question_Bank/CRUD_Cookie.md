@@ -1,14 +1,14 @@
 # How to Create, Read & Delete a Cookie
 
 ## Creating a cookie
-```javascript
+```js
 document.cookie = "username=Swapnil";
 ```
 ## Reading a cookie
-```javascript
+```js
 let my_cookie = document.cookie;
 ```
 ## Deleting a cookie
-```javascript
+```js
 document.cookie = "username=Swapnil; expires=Mon, 20 Mar 2023 00:05:30 GMT"; 
 ```
