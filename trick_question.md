@@ -117,3 +117,78 @@ console.log(isInteger(2)); // Output : true
 console.log(isInteger(2.1)); // Output : false
 ```
 </details>
+
+<details open>
+  <summary>11 : Switch case execution for undefined value</summary>
+  <p>Initial value of result is undefined, undefined + number will give NAN output</p>
+
+```js
+var test = "a";
+var result;
+switch (test) {
+  case "a":
+    result += 20;
+  case "b":
+    result += 15;
+  case "c":
+    result += 0;
+  default:
+    result += 10;
+}
+// Output : NAN
+```
+</details>
+
+<details open>
+  <summary>12 : Variable scoping</summary>
+  <p>a is function scoped, but b will be initialized in global scope</p>
+
+```js
+(function () {
+    var a = (b = 5); // a = 5 , b = 5
+  }
+)();
+
+console.log(b);
+// Output : 5
+```
+</details>
+
+<details open>
+  <summary>13 : isBrowser</summary>
+  <p>Identify if script running in browser or not</p>
+  <p>If script running in browser console  Output : true</p>
+  <p>Running in terminal Output : false</p>
+
+```js
+const isBrowser = () => ![typeof window, typeof document].includes('undefined');
+
+console.log(isBrowser());
+```
+</details>
+
+<details open>
+  <summary>13 : setTimeout with Zero seconds interval</summary>
+  <p>Here the 4th console will execute before setTimeout will be in callstack queue</p>
+
+```js
+console.log(1);
+console.log(2);
+setTimeout(() => console.log(3), 0);
+console.log(4);
+ // Output : 1 2 4 3
+```
+</details>
+
+<details open>
+  <summary>13 : Pre decrement </summary>
+  <p>Here the val 2 will be decrement first as <b>--</b> are added before the val2 </p>
+  <p>Then it will compare so both val1 and val2 are 1 , the result will be true in this case </p>
+
+```js
+let val1 = 1;
+let val2 = 2;
+console.log(--val2 === val1);
+ // Output : true
+```
+</details>
