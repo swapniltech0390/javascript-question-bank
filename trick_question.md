@@ -168,7 +168,7 @@ console.log(isBrowser());
 </details>
 
 <details open>
-  <summary>13 : setTimeout with Zero seconds interval</summary>
+  <summary>14 : setTimeout with Zero seconds interval</summary>
   <p>Here the 4th console will execute before setTimeout will be in callstack queue</p>
 
 ```js
@@ -181,7 +181,7 @@ console.log(4);
 </details>
 
 <details open>
-  <summary>13 : Pre decrement </summary>
+  <summary>15 : Pre decrement </summary>
   <p>Here the val 2 will be decrement first as <b>--</b> are added before the val2 </p>
   <p>Then it will compare so both val1 and val2 are 1 , the result will be true in this case </p>
 
@@ -190,5 +190,95 @@ let val1 = 1;
 let val2 = 2;
 console.log(--val2 === val1);
  // Output : true
+```
+</details>
+
+<details open>
+  <summary>16 : Math.max use with Array </summary>
+  <p>Output will be not a number as max takes argument as number,but in this case we are passing array </p>
+
+```js
+console.log(Math.max([2, 3, 4, 5]));
+ // Output : NAN
+```
+</details>
+
+<details open>
+  <summary>17 : Display Array in table format</summary>
+
+```js
+const users = [
+  { name: "Rahul", id: 1, city: "Delhi" },
+  { name: "Rakesh", id: 2, city: "London" },
+  { name: "Ramesh", id: 3, city: "Paris" },
+];
+console.table(users);
+```
+</details>
+
+<details open>
+  <summary>18 : Reserved keyword declaration issue</summary>
+
+```js
+let for = 100; // Output : Error
+```
+</details>
+
+<details open>
+  <summary>19 : Arguments for function </summary>
+  <p>typeof will return object as args argument is an array</p>
+
+```js
+function getTest(...args) {
+  //[1000]
+  console.log(typeof args); //object
+}
+getTest(1000);
+```
+</details>
+
+<details open>
+  <summary>20 : Use of EVAL function</summary>
+  <p>Eval function evaluates the input as a javascript code</p>
+
+```js
+const sum = eval("10*10+5");
+console.log(sum); //105
+```
+</details>
+
+<details open>
+  <summary>21 : return an IIFE function</summary>
+  <p>sayHello return an IIFE function, and here IIFE function return Zero, typeof zero is number</p>
+
+```js
+function sayHello() {
+  return (() => 0)();
+}
+console.log(typeof sayHello()); //number
+```
+</details>
+
+<details open>
+  <summary>22 : Double typeof operation</summary>
+  <p>type of 1 is number, typeof number is string</p>
+
+```js
+console.log(typeof typeof 1); //string
+```
+</details>
+
+<details open>
+  <summary>23 : Delete keyword use</summary>
+  <p>Delete keyword only use with object properties.Here variable a is a number,so delete will not work</p>
+
+```js
+const func = (function (a) {
+  delete a;
+  return a;
+})(5);
+console.log(func);
+
+// output: 5;
 ```
 </details>
